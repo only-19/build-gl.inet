@@ -5,21 +5,24 @@ feeds:
     uri: https://github.com/fw876/helloworld.git
     branch: master
 packages:
-  - luci-app-ssr-plus
-  - luci-app-ddns
-  - ddns-scripts
-  - ddns-scripts-services
-  - ddns-scripts_aliyun
-  - luci-app-uhttpd
-  - dnsmasq-full
-  - luci-app-commands
+  - kmod-hwmon-pwmfan
+  - wireless-regdb
+  - wget-ssl
+  - kmod-wireguard-backport
+  - luci-theme-argon
+  - luci-app-argon-config
+  - luci-app-store
+  - luci-app-ramfree
+  - luci-app-wol
+  - luci-app-diskman
+  - luci-app-smartdns
+  - luci-app-openclash
+  - luci-app-zerotier
+  - luci-app-turboacc
+  - luci-app-ttyd
+  - luci-app-ddnsto
   - luci-app-mwan3
-  - luci-app-wireguard
-  - wireguard
-  - luci-app-eqos
-  - wireguard-tools
-  - default-settings
-
+  - luci-app-transmission
 
 
 diffconfig: |
