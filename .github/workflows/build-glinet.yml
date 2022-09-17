@@ -9,10 +9,11 @@ on:
         default: 'target_wlan_ap-gl-ax1800' 
         type: choice
         options:
-        - target_wlan_ap-gl-ax1800
         - target_wlan_ap-gl-axt1800
-        - target_wlan_ap-gl-ax1800-5-4
         - target_wlan_ap-gl-axt1800-5-4
+        - target_wlan_ap-gl-ax1800
+        - target_wlan_ap-gl-ax1800-5-4
+        
         
       ui:
         description: '是否包含官方UI'
