@@ -4,6 +4,9 @@ feeds:
   - name: helloworld
     uri: https://github.com/fw876/helloworld.git
     branch: master
+  - name: kenzok8
+    uri: https://github.com/kenzok8/small-package.git
+    branch: main    
 packages:
   - kmod-hwmon-pwmfan
   - wireless-regdb
@@ -15,12 +18,12 @@ packages:
   - luci-app-wol
   - luci-app-diskman
   
-  - luci-app-ssr-plus
+  - luci-app-openclash
   - luci-app-aria2
   - luci-app-zerotier
   - luci-app-ttyd
   - luci-app-ddnsto
-  - luci-app-mwan3
+  - luci-app-dockerman
 
 
 diffconfig: |
