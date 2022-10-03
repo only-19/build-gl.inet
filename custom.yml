@@ -23,7 +23,6 @@ packages:
   - luci-app-zerotier
   - luci-app-ttyd
   - luci-app-ddnsto
-  - luci-app-dockerman
 
 
 diffconfig: |
