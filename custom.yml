@@ -18,6 +18,7 @@ packages:
   - wireguard
   - luci-app-eqos
   - wireguard-tools
+  - luci-app-cpolar
 
 
 
@@ -29,3 +30,4 @@ diffconfig: |
   CONFIG_LUCI_LANG_zh_Hans=y
   CONFIG_BUSYBOX_CUSTOM=y
   CONFIG_BUSYBOX_CONFIG_FEATURE_FLOAT_SLEEP=y
+  CONFIG_PACKAGE_luci-app-cpolar-zh-cn=y
