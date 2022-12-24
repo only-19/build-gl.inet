@@ -4,6 +4,9 @@ feeds:
   - name: helloworld
     uri: https://github.com/fw876/helloworld.git
     branch: master
+  - name: kenzok8
+    uri: https://github.com/kenzok8/openwrt-packages.git
+    branch: master
 packages:
   - luci-app-ssr-plus
   - luci-app-ddns
@@ -16,6 +19,7 @@ packages:
   - wireguard
   - wireguard-tools
   - luci-app-cpolar
+  - luci-app-ddnsto
 
 
 
