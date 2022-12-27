@@ -6,7 +6,7 @@ feeds:
     branch: master
   - name: kenzok8
     uri: https://github.com/kenzok8/openwrt-packages.git
-    branch: master
+    revision: c02ce9649f46f3862d24dab9afbdd2928d90d495
     
 packages:
   - luci-app-ssr-plus
